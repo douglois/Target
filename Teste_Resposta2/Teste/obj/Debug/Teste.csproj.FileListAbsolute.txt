@@ -1,0 +1,10 @@
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\bin\Debug\Teste.exe.config
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\bin\Debug\Teste.exe
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\bin\Debug\Teste.pdb
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\obj\Debug\Teste.csprojAssemblyReference.cache
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\obj\Debug\Teste.csproj.CoreCompileInputs.cache
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\obj\Debug\Teste.exe
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\obj\Debug\Teste.pdb
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\bin\Debug\Newtonsoft.Json.dll
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\bin\Debug\Newtonsoft.Json.xml
+C:\Users\douglaslois-mtz\Desktop\Arquivos\Teste\Teste\obj\Debug\Teste.csproj.CopyComplete
