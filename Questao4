@@ -1,0 +1,41 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+
+namespace Teste
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Dictionary<string, double> samp = new Dictionary<string, double>();
+
+            //SP – R$67.836,43
+            //RJ – R$36.678,66
+            //MG – R$29.229,88
+            //ES – R$27.165,48
+            //Outros – R$19.849,53
+
+            //Escreva um programa na linguagem que desejar onde calcule o percentual de representação que cada estado teve dentro do valor
+            //total mensal da distribuidora.
+
+            samp.Add("SP", 67836.43);
+            samp.Add("RJ", 36678.66);
+            samp.Add("MG", 29229.88);
+            samp.Add("ES", 27165.48);
+            samp.Add("Outros", 19849.53);
+
+            double valorTotal = samp.Skip(0).Sum(x => x.Value);
+
+            foreach (var item in samp)
+            {
+                Console.WriteLine(item.Key + " representou " + Math.Round((item.Value / valorTotal) * 100, 2) + "%");
+            }
+            Console.ReadLine();
+        }
+    }
+}
