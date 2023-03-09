@@ -1,0 +1,43 @@
+using System;
+using System.Collections.Generic;
+using System.IO;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Newtonsoft.Json;
+
+namespace Teste
+{
+    public class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.Write("Digite um número: ");
+            int n = int.Parse(Console.ReadLine());
+
+            if(n < 0)
+            {
+                Console.Write("Informe um numero positivo");
+            }
+            else
+            {
+                int a = 0;
+                int b = 1;
+
+                Console.Write(a + " ");
+
+                for (int i = 1; i < n; i++)
+                {
+                    int c = a + b;
+                    Console.Write(c + " ");
+
+                    a = b;
+                    b = c;
+                }
+
+                Console.ReadLine();
+            }
+            Console.ReadLine();
+        }
+    }
+}
